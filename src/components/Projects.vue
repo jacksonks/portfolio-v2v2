@@ -75,94 +75,27 @@ export default {
       allProjects: [
         {
           id: 1,
-          title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "bootstrap",
-          ],
+          color: "black",
+          title: "cardapio on-line",
+          skills: ["html", "css", "jquery", "javascript", "bootstrap"],
           imgs: [
             {
-              src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+              src: "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/card%C3%A1pio%20mobile.jpeg",
             },
             {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
+              src: "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/carrinho%20mobile%20-%20etapa%201.jpeg",
             },
           ],
-          img: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 2,
-          title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "typescript",
-            "vue",
-            "vite",
-            "vitest",
-            "pinia",
-            "vuetify",
-            "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
-          ],
+          color: "black",
+          title: "Delivery on-line",
+          skills: ["html", "css", "javascript", "vue"],
           imgs: [
             {
               src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
@@ -171,14 +104,15 @@ export default {
               src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
             },
           ],
-          img: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 3,
-          title: "menu on-line",
+          color: "black",
+          title: "Internationalization",
           skills: [
             "html",
             "css",
@@ -191,307 +125,54 @@ export default {
             "pinia",
             "vuetify",
             "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
           ],
-          imgs: [
-            {
-              src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
-            },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
-            },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
-            },
-          ],
-          img: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
-          text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+          imgs: [],
+          img: "https://vueschool.io/storage/media/0aa2cfd06e2b4367c1e140d30639da58/I18N-transparent.png",
+          text: "multilingual website and vue.js application with vue-i18n. Vue i18n is the official internationalization library from Vue.js that integrates nicely with any new or existing Vue.js application. With Vue i18n, we can automatically detect and set languages based on the user’s browser or URL. We can easily translate and transform text, numbers, dates, currencies, and so much more.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 4,
+          color: "black",
           title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "typescript",
-            "vue",
-            "vite",
-            "vitest",
-            "pinia",
-            "vuetify",
-            "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
-          ],
+          skills: ["html", "css", "jquery", "javascript", "typescript", "vue"],
           imgs: [
             {
-              src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo.PNG",
             },
             {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
-            },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
+              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-produto.PNG",
             },
           ],
-          img: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo.PNG",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 5,
+          color: "black",
           title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "typescript",
-            "vue",
-            "vite",
-            "vitest",
-            "pinia",
-            "vuetify",
-            "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
-          ],
+          skills: ["html", "css", "jquery", "javascript", "typescript", "vue"],
           imgs: [
             {
               src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
             },
             {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
-            },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
+              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-loja.PNG",
             },
           ],
-          img: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-produto.PNG",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 6,
+          color: "black",
           title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "typescript",
-            "vue",
-            "vite",
-            "vitest",
-            "pinia",
-            "vuetify",
-            "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
-          ],
+          skills: ["html", "css", "jquery", "javascript", "typescript", "vue"],
           imgs: [
             {
               src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
@@ -499,82 +180,17 @@ export default {
             {
               src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
             },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
-            },
           ],
-          img: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
         },
         {
           id: 7,
+          color: "black",
           title: "menu on-line",
-          skills: [
-            "html",
-            "css",
-            "jquery",
-            "javascript",
-            "typescript",
-            "vue",
-            "vite",
-            "vitest",
-            "pinia",
-            "vuetify",
-            "nuxt",
-            "electron",
-            "react",
-            "next",
-            "angular",
-            "bootstrap",
-            "tailwind",
-            "nodejs",
-            "express",
-            "nest",
-            "adonis",
-            "aws",
-            "docker",
-            "apollo",
-            "graphql",
-            "figma",
-            "gatsby",
-            "git",
-            "github",
-            "githubactions",
-            "gitlab",
-            "bitbucket",
-            "gulp",
-            "webpack",
-            "babel",
-            "jest",
-            "cypress",
-            "kubernetes",
-            "php",
-            "laravel",
-            "mongodb",
-            "mysql",
-            "postgres",
-            "prisma",
-            "redux",
-            "regex",
-            "remix",
-            "sass",
-            "wordpress",
-            "postman",
-            "npm",
-            "pnpm",
-            "yarn",
-            "jenkins",
-            "firebase",
-            "python",
-            "django",
-            "fastapi",
-            "nginx",
-            "netlify",
-            "vercel",
-            "sentry",
-          ],
+          skills: ["html", "css", "jquery", "javascript", "typescript", "vue"],
           imgs: [
             {
               src: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
@@ -582,11 +198,8 @@ export default {
             {
               src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png",
             },
-            {
-              src: "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG",
-            },
           ],
-          img: "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+          img: undefined,
           text: "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
           link: "https://jacksonks.github.io/menu-online-whatsapp-demo/",
           code: "https://github.com/jacksonks/menu-online-whatsapp-demo",
@@ -623,10 +236,10 @@ export default {
 </script>
 
 <template>
-  <v-container fluid>
+  <v-container class="container mx-auto">
     <v-row align="center" justify="center" text="center">
       <v-col cols="6">
-        <h1>projetos</h1>
+        <span class="display-1">projetos</span>
       </v-col>
       <v-col cols="6">
         <v-select
@@ -643,7 +256,12 @@ export default {
         ></v-select>
       </v-col>
     </v-row>
-    <v-row justify="d-flex justify-space-between" class="d-flex child-flex">
+    <v-row
+      align="center"
+      justify="center"
+      text="center"
+      class="d-flex flex-wrap justify-center align-center"
+    >
       <div class="text-center">
         <v-overlay :value="overlay">
           <v-progress-circular indeterminate size="64"></v-progress-circular>
@@ -660,23 +278,41 @@ export default {
             justify="center"
             align-self="center"
           >
-            <v-alert type="warning" outlined dense>
-              Nenhum Projeto Com <strong>{{ option }}</strong></v-alert
-            >
+            <span>
+              Nenhum projeto com
+              <strong>{{ option }}</strong>
+              <br />
+              <br />
+              <img
+                class="mr-1"
+                height="50px"
+                :src="
+                  'https://skillicons.dev/icons?i=' + option + '&theme=light'
+                "
+                :alt="option"
+              />
+            </span>
           </v-col>
         </v-row>
       </div>
-      <div v-for="(item, i) in projects" :key="i" class="pa-3">
+      <div class="pa-3" v-for="(item, i) in projects" :key="i">
         <v-hover>
           <template v-slot:default="{ hover }">
-            <v-card class="" max-width="350">
+            <v-card
+              :elevation="hover ? 24 : 4"
+              class="mx-auto"
+              max-width="350px"
+              min-width="350px"
+              min-height="550px"
+              max-height="550px"
+            >
               <v-img
                 v-if="!hover"
                 contain
-                min-height="150px"
+                min-height="200px"
                 max-height="200px"
-                :src="item.imgs[0].src"
-                :lazy-src="item.imgs[0].src"
+                :src="item.img ? item.img : item.imgs[0].src"
+                :lazy-src="item.img ? item.img : item.imgs[0].src"
                 aspect-ratio="1"
                 class="grey lighten-2"
               >
@@ -696,10 +332,10 @@ export default {
               <v-img
                 v-else
                 contain
-                min-height="150px"
+                min-height="200px"
                 max-height="200px"
-                :src="item.imgs[1].src"
-                :lazy-src="item.imgs[1].src"
+                :src="item.img ? item.img : item.imgs[1].src"
+                :lazy-src="item.img ? item.img : item.imgs[1].src"
                 aspect-ratio="1"
                 class="grey lighten-2"
               >
@@ -716,7 +352,9 @@ export default {
                   </v-row>
                 </template>
               </v-img>
-              <v-card-title class="primary--text text-center align-center justify-center">
+              <v-card-title
+                class="primary--text text-center align-center justify-center"
+              >
                 {{ item.title }}
               </v-card-title>
               <v-card-subtitle>
@@ -724,6 +362,7 @@ export default {
                   <div v-for="(icon, key) in item.skills" :key="key">
                     <img
                       class="mr-1"
+                      height="25px"
                       :src="
                         'https://skillicons.dev/icons?i=' +
                         icon +
@@ -732,33 +371,10 @@ export default {
                       :alt="icon"
                     />
                   </div>
-                  <div v-for="(icon, key) in item.icons" :key="key">
-                    <v-tooltip v-if="icon.icon" top>
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-icon size="50" v-bind="attrs" v-on="on">{{
-                          icon.icon
-                        }}</v-icon>
-                      </template>
-                      <span>{{ icon.text }}</span>
-                    </v-tooltip>
-                    <v-tooltip v-else top>
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-img
-                          :src="icon.img"
-                          contain
-                          max-width="50"
-                          max-height="50px"
-                          v-bind="attrs"
-                          v-on="on"
-                        ></v-img>
-                      </template>
-                      <span>{{ icon.text }}</span>
-                    </v-tooltip>
-                  </div>
                 </v-row>
               </v-card-subtitle>
-              <v-card-text class="text--primary">
-                <div>{{ item.text }}</div>
+              <v-card-text class="text-justify" style="min-height: 214px">
+                <span>{{ item.text }}</span>
               </v-card-text>
               <v-card-actions class="d-flex justify-space-between">
                 <v-btn
@@ -782,7 +398,7 @@ export default {
                   text
                   small
                 >
-                  <v-icon>android</v-icon>
+                  <v-icon>mdi-android</v-icon>
                 </v-btn>
                 <v-btn
                   v-if="item.ios"
@@ -794,13 +410,14 @@ export default {
                   text
                   small
                 >
-                  <v-icon>apple</v-icon>
+                  <v-icon>mdi-apple</v-icon>
                 </v-btn>
                 <v-btn
                   v-if="item.code"
                   color="black"
                   :href="item.code"
                   target="_blank"
+                  dark
                   fab
                   text
                   small
@@ -816,4 +433,9 @@ export default {
   </v-container>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+</style>
