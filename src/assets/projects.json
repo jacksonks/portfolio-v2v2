@@ -1,0 +1,198 @@
+{
+  "options": [
+    "Todos",
+    "adonis",
+    "angular",
+    "apollo",
+    "aws",
+    "babel",
+    "bitbucket",
+    "bootstrap",
+    "cypress",
+    "css",
+    "django",
+    "docker",
+    "electron",
+    "express",
+    "fastapi",
+    "figma",
+    "firebase",
+    "gatsby",
+    "git",
+    "github",
+    "githubactions",
+    "gitlab",
+    "graphql",
+    "gulp",
+    "html",
+    "javascript",
+    "jenkins",
+    "jest",
+    "jquery",
+    "kubernetes",
+    "laravel",
+    "mongodb",
+    "mysql",
+    "nest",
+    "next",
+    "nginx",
+    "nodejs",
+    "nuxt",
+    "npm",
+    "php",
+    "pinia",
+    "pnpm",
+    "postgres",
+    "postman",
+    "prisma",
+    "python",
+    "redux",
+    "regex",
+    "remix",
+    "sass",
+    "sentry",
+    "tailwind",
+    "typescript",
+    "vercel",
+    "vite",
+    "vitest",
+    "vue",
+    "vuetify",
+    "webpack",
+    "wordpress",
+    "yarn"
+  ],
+  "allProjects": [
+    {
+      "id": 1,
+      "color": "black",
+      "title": "cardapio on-line",
+      "skills": ["html", "css", "jquery", "javascript", "bootstrap"],
+      "imgs": [
+        {
+          "src": "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/card%C3%A1pio%20mobile.jpeg"
+        },
+        {
+          "src": "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/carrinho%20mobile%20-%20etapa%201.jpeg"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 2,
+      "color": "black",
+      "title": "Delivery on-line",
+      "skills": ["html", "css", "javascript", "vue"],
+      "imgs": [
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
+        },
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 3,
+      "color": "black",
+      "title": "Internationalization",
+      "skills": [
+        "html",
+        "css",
+        "jquery",
+        "javascript",
+        "typescript",
+        "vue",
+        "vite",
+        "vitest",
+        "pinia",
+        "vuetify",
+        "nuxt"
+      ],
+      "imgs": [],
+      "img": "https://vueschool.io/storage/media/0aa2cfd06e2b4367c1e140d30639da58/I18N-transparent.png",
+      "text": "multilingual website and vue.js application with vue-i18n. Vue i18n is the official internationalization library from Vue.js that integrates nicely with any new or existing Vue.js application. With Vue i18n, we can automatically detect and set languages based on the user’s browser or URL. We can easily translate and transform text, numbers, dates, currencies, and so much more.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 4,
+      "color": "black",
+      "title": "menu on-line",
+      "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
+      "imgs": [
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo.PNG"
+        },
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-produto.PNG"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 5,
+      "color": "black",
+      "title": "menu on-line",
+      "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
+      "imgs": [
+        {
+          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
+        },
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-loja.PNG"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 6,
+      "color": "black",
+      "title": "menu on-line",
+      "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
+      "imgs": [
+        {
+          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
+        },
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    },
+    {
+      "id": 7,
+      "color": "black",
+      "title": "menu on-line",
+      "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
+      "imgs": [
+        {
+          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
+        },
+        {
+          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
+        }
+      ],
+      "img": null,
+      "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
+      "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
+      "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
+    }
+  ]
+}

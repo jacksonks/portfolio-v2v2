@@ -141,7 +141,11 @@ export default {
 
     <v-footer color="black" dark padless>
       <v-col class="text-center">
-        {{ new Date().getFullYear() }} - Copyright &copy; Jackson Kelvin de
+        {{ new Date().getFullYear() }} - Copyright All rights reserved &copy; Jackson Kelvin de
+        Souza
+      </v-col>
+      <v-col class="text-center">
+        {{ new Date().getFullYear() }} - Todos os direitos reservados &copy; Jackson Kelvin de
         Souza
       </v-col>
     </v-footer>
