@@ -1,53 +1,18 @@
 <script>
+import projects from "@/assets/projects.json";
 export default {
   name: "App",
   data: () => ({
-    menu: [],
-    languages: [
-      { code: "af", language: "Afrikaans (Afrikaans)", disabled: true },
-      { code: "ar", language: "Arabic (العربية)", disabled: true },
-      { code: "az", language: "Azerbaijani (Azərbaycan)", disabled: true },
-      { code: "bg", language: "Bulgarian (български)", disabled: true },
-      { code: "ca", language: "Catalan (català)", disabled: true },
-      { code: "ckb", language: "Central Kurdish (کوردی)", disabled: true },
-      { code: "cs", language: "Czech (čeština)", disabled: true },
-      { code: "da", language: "Danish (Dansk)", disabled: true },
-      { code: "de", language: "German (Deutsch)", disabled: true },
-      { code: "el", language: "Greek (Ελληνικά)", disabled: true },
-      { code: "en", language: "English", disabled: false },
-      { code: "es", language: "Spanish (Español)", disabled: true },
-      { code: "et", language: "Estonian (eesti)", disabled: true },
-      { code: "fa", language: "Persian (فارسی)", disabled: true },
-      { code: "fi", language: "Finnish (suomi)", disabled: true },
-      { code: "fr", language: "French (Français)", disabled: true },
-      { code: "he", language: "Hebrew (עברית)", disabled: true },
-      { code: "hr", language: "Croatian (hrvatski jezik)", disabled: true },
-      { code: "hu", language: "Hungarian (magyar)", disabled: true },
-      { code: "id", language: "Indonesian (Indonesian)", disabled: true },
-      { code: "it", language: "Italian (Italiano)", disabled: true },
-      { code: "ja", language: "Japanese (日本語)", disabled: true },
-      { code: "ko", language: "Korean (한국어)", disabled: true },
-      { code: "lt", language: "Lithuanian (lietuvių kalba)", disabled: true },
-      { code: "lv", language: "Latvian (latviešu valoda)", disabled: true },
-      { code: "nl", language: "Dutch (Nederlands)", disabled: true },
-      { code: "no", language: "Norwegian (Norsk)", disabled: true },
-      { code: "pl", language: "Polish (język polski)", disabled: true },
-      { code: "pt", language: "Portuguese (Português)", disabled: false },
-      { code: "ro", language: "Romanian (Română)", disabled: true },
-      { code: "ru", language: "Russian (Русский)", disabled: true },
-      { code: "sk", language: "Slovak (slovenčina)", disabled: true },
-      { code: "sl", language: "Slovene (slovenski jezik)", disabled: true },
-      { code: "srCyrl", language: "Serbian (српски језик)", disabled: true },
-      { code: "srLatn", language: "Serbian (srpski jezik)", disabled: true },
-      { code: "sv", language: "Swedish (svenska)", disabled: true },
-      { code: "th", language: "Thai (ไทย)", disabled: true },
-      { code: "tr", language: "Turkish (Türkçe)", disabled: true },
-      { code: "uk", language: "Ukrainian (Українська)", disabled: true },
-      { code: "vi", language: "Vietnamese (Tiếng Việt)", disabled: true },
-      { code: "zhHans", language: "Chinese (中文)", disabled: true },
-      { code: "zhHant", language: "Chinese (正體中文)", disabled: true },
-    ],
+    //
   }),
+  computed: {
+    languages() {
+      return projects["languages"];
+    },
+    menu() {
+      return projects["menu"];
+    },
+  },
   methods: {
     changeLocale(item) {
       this.$vuetify.lang.current = item.code;
@@ -58,9 +23,6 @@ export default {
 
 <template>
   <v-app>
-    <!--        <v-navigation-drawer app>
-          &lt;!&ndash; &ndash;&gt;
-        </v-navigation-drawer>-->
     <v-app-bar app color="black" dark>
       <v-toolbar-title>
         <!--
@@ -99,7 +61,7 @@ export default {
         target="_blank"
         text
       >
-        <span class="mr-2">Blog</span>
+        <span class="mr-1">Blog</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
       <v-btn text @click="$vuetify.theme.dark = !$vuetify.theme.dark">

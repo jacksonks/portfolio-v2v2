@@ -209,16 +209,23 @@ export default {
               <v-card-subtitle>
                 <v-row align="center" justify="center" text="center">
                   <div v-for="(icon, key) in item.skills" :key="key">
-                    <img
-                      class="mr-1"
-                      height="25px"
-                      :src="
-                        'https://skillicons.dev/icons?i=' +
-                        icon +
-                        '&theme=light'
-                      "
-                      :alt="icon"
-                    />
+                    <v-tooltip bottom>
+                      <template v-slot:activator="{ on, attrs }">
+                        <img
+                          v-bind="attrs"
+                          v-on="on"
+                          class="mr-1"
+                          height="25px"
+                          :src="
+                            'https://skillicons.dev/icons?i=' +
+                            icon +
+                            '&theme=light'
+                          "
+                          :alt="icon"
+                        />
+                      </template>
+                      <span>{{ icon }}</span>
+                    </v-tooltip>
                   </div>
                 </v-row>
               </v-card-subtitle>
