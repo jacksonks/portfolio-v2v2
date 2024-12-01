@@ -190,15 +190,8 @@
       "color": "black",
       "title": "menu on-line",
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
-      "imgs": [
-        {
-          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
-        },
-        {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-loja.PNG"
-        }
-      ],
-      "img": null,
+      "imgs": [],
+      "img": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
       "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"

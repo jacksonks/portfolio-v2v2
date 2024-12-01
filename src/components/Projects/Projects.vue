@@ -155,52 +155,101 @@ export default {
               min-height="550px"
               max-height="550px"
             >
-              <v-img
-                v-if="!hover"
-                contain
-                min-height="200px"
-                max-height="200px"
-                :src="item.img ? item.img : item.imgs[0].src"
-                :lazy-src="item.img ? item.img : item.imgs[0].src"
-                aspect-ratio="1"
-                class="grey lighten-2"
-              >
-                <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey lighten-5"
-                    ></v-progress-circular>
-                  </v-row>
-                </template>
-              </v-img>
-              <v-img
-                v-else
-                contain
-                min-height="200px"
-                max-height="200px"
-                :src="item.img ? item.img : item.imgs[1].src"
-                :lazy-src="item.img ? item.img : item.imgs[1].src"
-                aspect-ratio="1"
-                class="grey lighten-2"
-              >
-                <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey lighten-5"
-                    ></v-progress-circular>
-                  </v-row>
-                </template>
-              </v-img>
+              <div v-if="item.img">
+                <v-img
+                  v-if="!hover"
+                  contain
+                  min-height="200px"
+                  max-height="200px"
+                  :src="item.img"
+                  :lazy-src="item.img"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+                <v-img
+                  v-else
+                  min-height="200px"
+                  max-height="200px"
+                  :src="item.img"
+                  :lazy-src="item.img"
+                  aspect-ratio="10"
+                  class="grey lighten-2"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+              </div>
+              <div v-else-if="!item.img">
+                <v-img
+                  v-if="!hover"
+                  contain
+                  min-height="200px"
+                  max-height="200px"
+                  :src="item.imgs[0].src"
+                  :lazy-src="item.imgs[0].src"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+                <v-img
+                  v-else
+                  contain
+                  min-height="200px"
+                  max-height="200px"
+                  :src="item.imgs[1].src"
+                  :lazy-src="item.imgs[1].src"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+              </div>
               <v-card-title
                 class="primary--text text-center align-center justify-center"
               >
@@ -241,7 +290,7 @@ export default {
                   target="_blank"
                   small
                 >
-                  Visualizar projeto
+                  Visualizar
                   <v-icon left>mdi-open-in-new</v-icon>
                 </v-btn>
                 <v-btn
@@ -267,6 +316,36 @@ export default {
                   small
                 >
                   <v-icon>mdi-apple</v-icon>
+                </v-btn>
+                <v-btn
+                  v-if="item.id === 6"
+                  color="black"
+                  dark
+                  fab
+                  text
+                  small
+                >
+                  <v-icon>mdi-cellphone</v-icon>
+                </v-btn>
+                <v-btn
+                  v-if="item.id === 6"
+                  color="black"
+                  dark
+                  fab
+                  text
+                  small
+                >
+                  <v-icon>mdi-tablet</v-icon>
+                </v-btn>
+                <v-btn
+                  v-if="item.id === 6"
+                  color="black"
+                  dark
+                  fab
+                  text
+                  small
+                >
+                  <v-icon>mdi-laptop</v-icon>
                 </v-btn>
                 <v-btn
                   v-if="item.code"
