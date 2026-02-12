@@ -13,6 +13,15 @@ export default {
   created() {
     this.projects = [...this.allProjects];
   },
+  mounted() {
+    //rota+?q=vue
+    console.log("query", this.$route.query?.q);
+    if (!this.$route.query?.q) {
+      return;
+    }
+    this.option = this.$route.query.q;
+    this.filterProjects();
+  },
   watch: {
     overlay(val) {
       val &&
@@ -317,34 +326,13 @@ export default {
                 >
                   <v-icon>mdi-apple</v-icon>
                 </v-btn>
-                <v-btn
-                  v-if="item.id === 6"
-                  color="black"
-                  dark
-                  fab
-                  text
-                  small
-                >
+                <v-btn v-if="item.id === 6" color="black" dark fab text small>
                   <v-icon>mdi-cellphone</v-icon>
                 </v-btn>
-                <v-btn
-                  v-if="item.id === 6"
-                  color="black"
-                  dark
-                  fab
-                  text
-                  small
-                >
+                <v-btn v-if="item.id === 6" color="black" dark fab text small>
                   <v-icon>mdi-tablet</v-icon>
                 </v-btn>
-                <v-btn
-                  v-if="item.id === 6"
-                  color="black"
-                  dark
-                  fab
-                  text
-                  small
-                >
+                <v-btn v-if="item.id === 6" color="black" dark fab text small>
                   <v-icon>mdi-laptop</v-icon>
                 </v-btn>
                 <v-btn

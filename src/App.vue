@@ -75,7 +75,10 @@ export default {
         </template>
         <v-list>
           <v-list-item>
-            <v-list-item-title class="font-weight-bold">Translations/Traduções: {{ $vuetify.lang.current }}</v-list-item-title>
+            <v-list-item-title class="font-weight-bold"
+              >Translations/Traduções:
+              {{ $vuetify.lang.current }}</v-list-item-title
+            >
           </v-list-item>
           <div v-for="(item, index) in languages" :key="index">
             <div v-if="!item.disabled">
@@ -103,12 +106,12 @@ export default {
 
     <v-footer color="black" dark padless>
       <v-col class="text-center">
-        {{ new Date().getFullYear() }} - Copyright All rights reserved &copy; Jackson Kelvin de
-        Souza
+        {{ new Date().getFullYear() }} - Copyright All rights reserved &copy;
+        Jackson Kelvin de Souza
       </v-col>
       <v-col class="text-center">
-        {{ new Date().getFullYear() }} - Todos os direitos reservados &copy; Jackson Kelvin de
-        Souza
+        {{ new Date().getFullYear() }} - Todos os direitos reservados &copy;
+        Jackson Kelvin de Souza
       </v-col>
     </v-footer>
   </v-app>

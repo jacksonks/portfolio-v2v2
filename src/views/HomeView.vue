@@ -9,9 +9,9 @@ import Projects from "@/components/Projects/Projects.vue";
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Home',
+  name: "Home",
   components: {
     Projects,
   },
-}
+};
 </script>
