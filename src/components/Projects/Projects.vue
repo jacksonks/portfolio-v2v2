@@ -21,7 +21,7 @@ export default {
     }
     this.option = this.$route.query.q;
     this.filterProjects();
-    this.$router.replace({ query: {} }).catch(err => {});
+    this.$router.replace({ query: {} }).catch(() => {});
   },
   watch: {
     overlay(val) {
