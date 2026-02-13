@@ -47,11 +47,15 @@ export default {
         </div>
 -->
         <div class="word d-flex align-center">
-          <span class="letter" style="background-color: #42b983">V</span>
-          <span class="letter" style="background-color: #42b983">U</span>
-          <span class="letter" style="background-color: #42b983">E</span>
-          <span class="letter" style="background-color: #58c4dc">R</span>
-          <span class="letter" style="background-color: #dd0031">A</span>
+          <span class="letter">P</span>
+          <span class="letter">O</span>
+          <span class="letter">R</span>
+          <span class="letter">T</span>
+          <span class="letter">F</span>
+          <span class="letter">O</span>
+          <span class="letter">L</span>
+          <span class="letter">I</span>
+          <span class="letter">O</span>
         </div>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -131,5 +135,6 @@ export default {
   font-weight: bold;
   text-align: center;
   border-radius: 2px;
+  background-color: #000
 }
 </style>
