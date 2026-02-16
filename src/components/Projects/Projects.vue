@@ -14,7 +14,7 @@ export default {
     this.projects = [...this.allProjects];
   },
   mounted() {
-    //rota+?q=vue
+    //rota+vue
     console.log("query", this.$route.query?.q);
     if (!this.$route.query?.q) {
       return;
@@ -165,7 +165,22 @@ export default {
               min-height="550px"
               max-height="550px"
             >
-              <div v-if="item.img">
+              <div v-if="item.video">
+                <video
+                  height="200"
+                  width="350"
+                  controls
+                  controlsList="nodownload"
+                  autoplay
+                  loop
+                  muted
+                  poster
+                >
+                  <source :src="item.video" type="video/mp4" />
+                  Seu navegador não suporta a tag de vídeo.
+                </video>
+              </div>
+              <div v-else-if="item.img">
                 <v-img
                   v-if="!hover"
                   contain

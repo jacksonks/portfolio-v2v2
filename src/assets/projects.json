@@ -163,7 +163,7 @@
         "nuxt"
       ],
       "imgs": [],
-      "img": "https://vueschool.io/storage/media/0aa2cfd06e2b4367c1e140d30639da58/I18N-transparent.png",
+      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Clube-iFood-CRM-1024x576.jpg",
       "text": "multilingual website and vue.js application with vue-i18n. Vue i18n is the official internationalization library from Vue.js that integrates nicely with any new or existing Vue.js application. With Vue i18n, we can automatically detect and set languages based on the user’s browser or URL. We can easily translate and transform text, numbers, dates, currencies, and so much more.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
@@ -192,7 +192,8 @@
       "title": "menu on-line",
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
       "imgs": [],
-      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Screenshot-2026-02-11-154040.png",
+      "video": "https://raw.githubusercontent.com/jacksonks/projects-images/main/videos/carrinho desktop.mp4",
+      "img": null,
       "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
@@ -221,7 +222,8 @@
       "title": "menu on-line",
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
       "imgs": [],
-      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Clube-iFood-CRM-1024x576.jpg",
+      "video": "https://raw.githubusercontent.com/jacksonks/projects-images/main/videos/landing page mobile.mp4",
+      "img": null,
       "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
