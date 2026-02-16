@@ -113,10 +113,6 @@ export default {
         {{ new Date().getFullYear() }} - Copyright All rights reserved &copy;
         Jackson Kelvin de Souza
       </v-col>
-      <v-col class="text-center">
-        {{ new Date().getFullYear() }} - Todos os direitos reservados &copy;
-        Jackson Kelvin de Souza
-      </v-col>
     </v-footer>
   </v-app>
 </template>
@@ -129,12 +125,12 @@ export default {
 
 .letter {
   display: inline-block;
-  padding: 10px;
+  padding: 0px;
   color: white;
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   border-radius: 2px;
-  background-color: #000
+  background-color: #000;
 }
 </style>

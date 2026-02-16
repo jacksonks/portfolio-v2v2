@@ -116,10 +116,10 @@
       "skills": ["html", "css", "jquery", "javascript", "bootstrap"],
       "imgs": [
         {
-          "src": "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/card%C3%A1pio%20mobile.jpeg"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/desktop.png"
         },
         {
-          "src": "https://www.frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/carrinho%20mobile%20-%20etapa%201.jpeg"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/mobile.png"
         }
       ],
       "img": null,
@@ -134,10 +134,10 @@
       "skills": ["html", "css", "javascript", "vue"],
       "imgs": [
         {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/banner desktop.png"
         },
         {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-new.PNG"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/relatorio-faturamento.png"
         }
       ],
       "img": null,
@@ -175,10 +175,10 @@
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
       "imgs": [
         {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo.PNG"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/cardapio-novo-produto.png"
         },
         {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/cardapio-novo-produto.PNG"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/carrinho mobile - etapa 1.jpeg"
         }
       ],
       "img": null,
@@ -192,7 +192,7 @@
       "title": "menu on-line",
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
       "imgs": [],
-      "img": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png",
+      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Screenshot-2026-02-11-154040.png",
       "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
@@ -204,10 +204,10 @@
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
       "imgs": [
         {
-          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/cardapio-novo-loja.png"
         },
         {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
+          "src": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/cardapio-novo.png"
         }
       ],
       "img": null,
@@ -220,15 +220,8 @@
       "color": "black",
       "title": "menu on-line",
       "skills": ["html", "css", "jquery", "javascript", "typescript", "vue"],
-      "imgs": [
-        {
-          "src": "https://frontlee.com.br/cursos/img/cardapio-online-com-whatsapp/banner%20desktop.png"
-        },
-        {
-          "src": "https://frontlee.com.br/cursos/img/ninja-do-delivery/relatorio-faturamento.png"
-        }
-      ],
-      "img": null,
+      "imgs": [],
+      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Clube-iFood-CRM-1024x576.jpg",
       "text": "Lorem ipsum dolor sit amet, at aliquam vivendum vel, everti delicatissimi cu eos. Dico iuvaret debitis mel an, et cum zril menandri. Eum in consul legimus accusam. Ea dico abhorreant duo, quo illum minimum incorrupte no, nostro voluptaria sea eu. Suas eligendi ius at, at nemore equidem est. Sed in error hendrerit, in consul constituam cum.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"
