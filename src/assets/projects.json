@@ -91,6 +91,7 @@
     "postman",
     "prisma",
     "python",
+    "quasar",
     "react",
     "redux",
     "regex",
@@ -104,6 +105,7 @@
     "vitest",
     "vue",
     "vuetify",
+    "vuex",
     "webpack",
     "wordpress",
     "yarn"
