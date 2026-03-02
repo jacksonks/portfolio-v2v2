@@ -165,7 +165,7 @@
         "nuxt"
       ],
       "imgs": [],
-      "img": "https://institucional.ifood.com.br/wp-content/uploads/2026/02/Clube-iFood-CRM-1024x576.jpg",
+      "img": "https://raw.githubusercontent.com/jacksonks/projects-images/main/imgs/banner desktop.png",
       "text": "multilingual website and vue.js application with vue-i18n. Vue i18n is the official internationalization library from Vue.js that integrates nicely with any new or existing Vue.js application. With Vue i18n, we can automatically detect and set languages based on the user’s browser or URL. We can easily translate and transform text, numbers, dates, currencies, and so much more.",
       "link": "https://jacksonks.github.io/menu-online-whatsapp-demo/",
       "code": "https://github.com/jacksonks/menu-online-whatsapp-demo"

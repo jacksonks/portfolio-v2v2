@@ -1,6 +1,9 @@
 <script>
+import ProjectsCardVideo from "@/components/Projects/ProjectsCardVideo.vue";
+
 export default {
   name: "ProjectsCard",
+  components: { ProjectsCardVideo },
   props: ["item"],
 };
 </script>
@@ -16,21 +19,10 @@ export default {
         min-height="550px"
         max-height="550px"
       >
-        <div v-if="item.video">
-          <video
-            height="200"
-            width="350"
-            controls
-            controlsList="nodownload"
-            autoplay
-            loop
-            muted
-            poster
-          >
-            <source :src="item.video" type="video/mp4" />
-            Seu navegador não suporta a tag de vídeo.
-          </video>
-        </div>
+        <projects-card-video
+          v-if="item.video"
+          :video="item.video"
+        ></projects-card-video>
         <div v-else-if="item.img">
           <v-img
             v-if="!hover"
@@ -43,11 +35,7 @@ export default {
             class="grey lighten-2"
           >
             <template v-slot:placeholder>
-              <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-              >
+              <v-row class="fill-height ma-0" align="center" justify="center">
                 <v-progress-circular
                   indeterminate
                   color="grey lighten-5"
@@ -61,15 +49,11 @@ export default {
             max-height="200px"
             :src="item.img"
             :lazy-src="item.img"
-            aspect-ratio="10"
+            aspect-ratio="100"
             class="grey lighten-2"
           >
             <template v-slot:placeholder>
-              <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-              >
+              <v-row class="fill-height ma-0" align="center" justify="center">
                 <v-progress-circular
                   indeterminate
                   color="grey lighten-5"
@@ -90,11 +74,7 @@ export default {
             class="grey lighten-2"
           >
             <template v-slot:placeholder>
-              <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-              >
+              <v-row class="fill-height ma-0" align="center" justify="center">
                 <v-progress-circular
                   indeterminate
                   color="grey lighten-5"
@@ -113,11 +93,7 @@ export default {
             class="grey lighten-2"
           >
             <template v-slot:placeholder>
-              <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-              >
+              <v-row class="fill-height ma-0" align="center" justify="center">
                 <v-progress-circular
                   indeterminate
                   color="grey lighten-5"
@@ -142,10 +118,8 @@ export default {
                     class="mr-1"
                     height="25px"
                     :src="
-                            'https://skillicons.dev/icons?i=' +
-                            icon +
-                            '&theme=light'
-                          "
+                      'https://skillicons.dev/icons?i=' + icon + '&theme=light'
+                    "
                     :alt="icon"
                   />
                 </template>
