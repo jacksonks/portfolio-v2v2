@@ -98,6 +98,20 @@ export default {
               {{ data.item }}
             </v-chip>
           </template>
+          <template v-slot:item="data">
+            <template>
+              <img
+                v-if="data.item !== 'Todos'"
+                class="mr-1"
+                height="20px"
+                :src="
+                  'https://skillicons.dev/icons?i=' + data.item + '&theme=light'
+                "
+                :alt="option"
+              />
+              {{ data.item }}
+            </template>
+          </template>
         </v-autocomplete>
       </v-col>
     </v-row>
