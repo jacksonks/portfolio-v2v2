@@ -1,9 +1,10 @@
 <script>
 import ProjectsCardVideo from "@/components/Projects/ProjectsCardVideo.vue";
+import ProjectsCardImage from "@/components/Projects/ProjectsCardImage.vue";
 
 export default {
   name: "ProjectsCard",
-  components: { ProjectsCardVideo },
+  components: { ProjectsCardImage, ProjectsCardVideo },
   props: ["item"],
 };
 </script>
@@ -23,45 +24,10 @@ export default {
           v-if="item.video"
           :video="item.video"
         ></projects-card-video>
-        <div v-else-if="item.img">
-          <v-img
-            v-if="!hover"
-            contain
-            min-height="200px"
-            max-height="200px"
-            :src="item.img"
-            :lazy-src="item.img"
-            aspect-ratio="1"
-            class="grey lighten-2"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-          <v-img
-            v-else
-            min-height="200px"
-            max-height="200px"
-            :src="item.img"
-            :lazy-src="item.img"
-            aspect-ratio="100"
-            class="grey lighten-2"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-        </div>
+        <projects-card-image
+          v-else-if="item.img"
+          :img="item.img"
+        ></projects-card-image>
         <div v-else-if="!item.img">
           <v-img
             v-if="!hover"
