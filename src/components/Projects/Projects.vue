@@ -73,7 +73,7 @@ export default {
           attach
           rounded
           single-line
-          hint="Selecione um item para filtrar"
+          hint="Selecione ou pesquise para filtrar"
           persistent-hint
           clearable
           @change="filterProjects"

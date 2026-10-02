@@ -39,6 +39,7 @@ export default {
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
+        v-show="false"
         class="hidden-xs-only"
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
@@ -52,7 +53,7 @@ export default {
       </v-btn>
       <v-menu open-on-hover offset-y>
         <template v-slot:activator="{ on, attrs }">
-          <v-btn v-bind="attrs" v-on="on" text>
+          <v-btn v-bind="attrs" v-on="on" text v-show="false">
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
