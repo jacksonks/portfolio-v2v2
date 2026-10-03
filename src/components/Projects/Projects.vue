@@ -16,7 +16,7 @@ export default {
     this.projects = [...this.allProjects];
   },
   mounted() {
-    //rota+vue
+    //http://localhost:5174/?q=angular
     console.log("query", this.$route.query?.q);
     if (!this.$route.query?.q) {
       return;
